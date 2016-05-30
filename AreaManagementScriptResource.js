@@ -1,10 +1,9 @@
 ﻿var languageResource = {};
 languageResource.resMsg_SelectProductionLine = "Please select production line";
-languageResource.resMsg_ConfirmDelete = "Are you sure you want to delete this device? Areas assigned to this device will be removed automatically.";
 languageResource.resMsg_DeleteSuccess = "All the sub areas and the device mappings were deleted successfully";
 languageResource.resMsg_NoRecordFound = "No Unmapped devices found";
 languageResource.resMsgPleaseSelectDevice = "Please select the devices that need to be added to the area";
-languageResource.resMsgPleaseSelectArea = "Please selct the area that needs to be configured";
+languageResource.resMsgPleaseSelectArea = "Please select the area that needs to be configured";
 languageResource.resMsgCannotAddAreaToDevice = "Cannot add a sub area under a device";
 languageResource.resMsgEnterAreaName = "Please enter an area name";
 languageResource.resMsgCantDeleteNode = "The node that you have selected cannot be deleted";
@@ -61,4 +60,12 @@ languageResource.resMsg_RenameArea = "Rename Area";
 languageResource.resMsg_RemoveArea = "Remove Area";
 languageResource.resMsg_RemoveDevice = "Remove Device";
 languageResource.resMsg_AssignArea = "Assign Area";
+languageResource.resMsg_DontHavePermissionDelete = "You dont have a permission to delete";
+languageResource.resMsg_DontHavePermissionCreate = "You dont have a permission to create an area";
+languageResource.resMsg_DontHavePermissionAssignArea = "You dont have a permission to assign an area";
+languageResource.resMsg_DontHavePermissionRename = "You dont have a permission to rename";
+
+languageResource.resMsg_ConfirmFPDeviceDelete = "Are you sure you want to delete this device? Areas assigned to this device will be removed automatically.";
+languageResource.resMsg_ConfirmDeviceDelete = "Are you sure you want to delete this device?";
+languageResource.resMsg_ConfirmFPDeviceKeyDelete = "Are you sure you want to delete this device key configured area?";
 
